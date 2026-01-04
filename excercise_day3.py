@@ -25,7 +25,16 @@ side_a = float(input("Enter Side a of the triangle "))
 side_b = float(input("Enter Side b of the triangle "))
 side_c = float(input("Enter Side c of the triangle "))
 
-print(f"User entered for side a,b and c is: {side_a}, {side_b} and {side_c} respectively")
+print(f"User entered data for side a,b and c is: {side_a}, {side_b} and {side_c} respectively")
 #calculate the perimeter of the triangle (perimeter = a + b + c)
 perimeter_of_triangle = side_a + side_b + side_c
 print(f"perimeter of the triangle based on user prompts data is = {int(perimeter_of_triangle)}")
+
+#6. Write a script that prompts the user to enter side a,b and c of a triangle./calculate the perimeter of the triangle using (perimeter = a + b + c))
+length = float(input("Enter the Lenght  of the triangle "))
+width = float(input("Enter  the width of the triangle "))
+print(f"length and width of the triangle based on user prompts data is: {length} and {width} respectively")
+#calculate the area of the triangle (area = lenght x width) and perimeter (perimeter = 2 x (lenghth + width)
+area_of_the_triangle = length * width
+perimeter_of_the_triangle = 2 *  (length + width)
+print(f"Based on the above data prompts; Area of the triangle is {int(area_of_the_triangle)} and perimeter for the triangle is {int(perimeter_of_the_triangle)} respectively")
