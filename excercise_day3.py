@@ -22,7 +22,7 @@ print(f"the calculated are of the triagle based on user base and height is: {int
 
 #5. Write a script that prompts the user to enter side a,b and c of a triangle./calculate the perimeter of the triangle using (perimeter = a + b + c))
 side_a = float(input("Enter Side a of the triangle "))
-side_c = float(input("Enter Side b of the triangle "))
+side_b = float(input("Enter Side b of the triangle "))
 side_c = float(input("Enter Side c of the triangle "))
 
-print(f"User entered Base is {base} and height is {height}")
+print(f"User entered for side a,b and c is: {side_a}, {side_b} and {side_c} respectively")
