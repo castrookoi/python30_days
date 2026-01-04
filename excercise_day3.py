@@ -38,3 +38,16 @@ print(f"length and width of the triangle based on user prompts data is: {length}
 area_of_the_triangle = length * width
 perimeter_of_the_triangle = 2 *  (length + width)
 print(f"Based on the above data prompts; Area of the triangle is {int(area_of_the_triangle)} and perimeter for the triangle is {int(perimeter_of_the_triangle)} respectively")
+
+#7. Get the raduis of circle using prompt
+radius_of_circle = float(input("Enter The Radius for the Circle: "))
+print(f"User Entered Radius for the circle is: {radius_of_circle}")
+#Calculate the area (pi x r x r) and circumference (c=2 x pi x r) where pi = 3.14
+
+#declare variable for pi
+pi = 3.14
+#calculate Area of the circle (area = pi x r x r)or (area = pi x r**2)
+area_of_the_circle = pi * radius_of_circle ** 2
+#calculate circumference of the circle (c = 2 x pi r x r)
+circumference_of_the_circle = 2 * pi * radius_of_circle
+print(f"based on the above data area of the circle is: {int(area_of_the_circle)} and the circumference of the circle is: {int(circumference_of_the_circle)}")
