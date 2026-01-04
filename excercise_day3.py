@@ -26,3 +26,6 @@ side_b = float(input("Enter Side b of the triangle "))
 side_c = float(input("Enter Side c of the triangle "))
 
 print(f"User entered for side a,b and c is: {side_a}, {side_b} and {side_c} respectively")
+#calculate the perimeter of the triangle (perimeter = a + b + c)
+perimeter_of_triangle = side_a + side_b + side_c
+print(f"perimeter of the triangle based on user prompts data is = {int(perimeter_of_triangle)}")
