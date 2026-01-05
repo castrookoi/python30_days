@@ -51,3 +51,5 @@ area_of_the_circle = pi * radius_of_circle ** 2
 #calculate circumference of the circle (c = 2 x pi r x r)
 circumference_of_the_circle = 2 * pi * radius_of_circle
 print(f"based on the above data area of the circle is: {int(area_of_the_circle)} and the circumference of the circle is: {int(circumference_of_the_circle)}")
+
+#8. Get the raduis of circle using prompt
