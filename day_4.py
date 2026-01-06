@@ -63,4 +63,6 @@ print(company[0])
 
 #what is the last index of the string "Coding For All"
 print(len(company) -1)
+
 #What character is at index 10 in "Coding For All"
+print(company[10])
